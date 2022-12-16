@@ -1,8 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebEx</title>
+       <link rel="stylesheet" href="<?php echo base_url('bootstrap-5.0.2-dist/css/bootstrap.css');?>">
+  <script src="<?php echo base_url('bootstrap-5.0.2-dist/js/bootstrap.js');?>"></script>
+  <style> 
+  <style>
+    .cl {
+      background-color: rgb(4, 113, 156);
+    }
+
+    .cl1 {
+      background-color: rgb(23, 20, 20);
+    }
+  </style>
+</head>
+
+<body>
+
 <nav class="navbar navbar-expand-lg navbar-dark cl1">
 
   <div class="container-fluid">
 
-    <a class="navbar-brand" href="home"><img src="https://cdn.pixabay.com/photo/2016/12/17/15/50/logo-1913689_960_720.png" alt="" width="30" height="24"></a>
+    <a class="navbar-brand" href="/"><img src="https://cdn.pixabay.com/photo/2016/12/17/15/50/logo-1913689_960_720.png" alt="" width="30" height="24"></a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
 
@@ -56,11 +79,11 @@
 
         </li>
 
-        <li class="nav-item">
+        <!-- <li class="nav-item">
 
           <a class="nav-link" href="contact">Contact Us </a>
 
-        </li>
+        </li> -->
 
       </ul>
 
@@ -70,19 +93,11 @@
 
         <button class="btn cl btn-outline-cl  rounded-pill" type="submit"><img src="https://cdn.pixabay.com/photo/2014/04/02/10/18/magnifying-glass-303408_960_720.png" alt="" width="30" height="24"></button>
 
-      </form>
-
-      <div class="mx-2 d-flex flex-row-reverse">
-        <form method="post" action="http://localhost:8080/login">
-        <input class="btn btn-success rounded-pill " type="submit" name="submit" value="Login">
-        </form>
-        <form method="post" action="http://localhost:8080/signup">
-        <input class="btn btn-danger mx-2 rounded-pill" type="submit" name="submit" value="Sign Up">
-        </form>
+      
       </div>
 
-        <!-- <button class="btn btn-danger rounded-pill" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#LoginModal">Login</button> -->
-        <!-- <button class="btn btn-danger rounded-pill" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#SignupModal">Sign Up</button> -->
+        <!-- <button class="btn btn-danger rounded-pill" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#LoginModal">Login</button> --> -->
+       <!-- <button class="btn btn-danger rounded-pill" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#SignupModal">Sign Up</button> -->
 
     </div>
 
@@ -272,7 +287,7 @@
     </div>
 
     <div class="carousel-item">
-      <img src="https://cdn.pixabay.com/photo/2015/05/26/23/52/technology-785742_960_720.jpg" class="d-block w-100" alt="..." width="450" height="500>
+      <img src="https://cdn.pixabay.com/photo/2019/07/14/16/29/pen-4337524_960_720.jpg" class="d-block w-100" alt="..." width="450" height="500">
       <div class="carousel-caption d-none d-md-block">
         <h2>Welcome to WebEx</h2>
         <p>Exploring the technologies</p>

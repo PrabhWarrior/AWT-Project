@@ -1,12 +1,3 @@
-<!--<!doctype html>
-<html>
-<head>
-    <title>CodeIgniter Tutorial</title>
-</head>
-<body>
-
-    <h1><?= esc($title) ?></h1>
-    -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WebEx</title>
        <link rel="stylesheet" href="<?php echo base_url('bootstrap-5.0.2-dist/css/bootstrap.css');?>">
-  <script src="<?php echo base_url('bootstrap-5.0.2-dist/css/bootstrap.js');?>"></script>
+  <script src="<?php echo base_url('bootstrap-5.0.2-dist/js/bootstrap.js');?>"></script>
   <style> 
   <style>
     .cl {

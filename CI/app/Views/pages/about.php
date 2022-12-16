@@ -1,10 +1,32 @@
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebEx</title>
+       <link rel="stylesheet" href="<?php echo base_url('bootstrap-5.0.2-dist/css/bootstrap.css');?>">
+  <script src="<?php echo base_url('bootstrap-5.0.2-dist/js/bootstrap.js');?>"></script>
+  <style> 
+  <style>
+    .cl {
+      background-color: rgb(4, 113, 156);
+    }
+
+    .cl1 {
+      background-color: rgb(23, 20, 20);
+    }
+  </style>
+</head>
+
+<body>
+
 
 <nav class="navbar navbar-expand-lg navbar-dark cl1">
 
 <div class="container-fluid">
 
-  <a class="navbar-brand" href="home"><img src="https://cdn.pixabay.com/photo/2016/12/17/15/50/logo-1913689_960_720.png" alt="" width="30" height="24"></a>
+  <a class="navbar-brand" href="/"><img src="https://cdn.pixabay.com/photo/2016/12/17/15/50/logo-1913689_960_720.png" alt="" width="30" height="24"></a>
 
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
 
@@ -58,11 +80,11 @@
 
       </li>
 
-      <li class="nav-item">
+      <!-- <li class="nav-item">
 
         <a class="nav-link" href="contact">Contact Us </a>
 
-      </li>
+      </li> -->
 
     </ul>
 

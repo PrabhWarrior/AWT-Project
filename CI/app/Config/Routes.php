@@ -48,7 +48,13 @@ $routes->match(['get', 'post'], 'SigninController/loginAuth', 'SigninController:
 $routes->get('/login', 'SigninController::index');
 $routes->get('/profile', 'ProfileController::index',['filter' => 'authGuard']);
 // $routes->get('pages', 'Pages::index');
-$routes->get('(:any)', 'Pages::view/$1');
+// $routes->get('(:any)', 'Pages::view/$1');
+$routes->get('/home', 'Pages::home');
+$routes->get('/contact', 'Pages::contact');
+$routes->get('/about', 'Pages::about');
+
+$routes->get('/main/(:any)', 'Main::$1');
+$routes->post('/main/(:any)', 'Main::$1');
 
 /*
  * --------------------------------------------------------------------

@@ -3,10 +3,35 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    .cl {
+      background-color: rgb(4, 113, 156);
+    }
+
+    .cl1 {
+      background-color: rgb(23, 20, 20);
+    }
+  </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <title>Codeigniter Auth User Registration Example</title>
+    <title>Webex Registration</title>
 </head>
 <body>
+<nav class="navbar navbar-expand-lg navbar-dark cl1">
+
+<div class="container-fluid">
+
+  <a class="navbar-brand" href="/"><img src="https://cdn.pixabay.com/photo/2016/12/17/15/50/logo-1913689_960_720.png" alt="" width="30" height="24"></a>
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+
+  </div>
+
+</div>
+
+</nav>
     <div class="container mt-5">
         <div class="row justify-content-md-center">
             <div class="col-5">
